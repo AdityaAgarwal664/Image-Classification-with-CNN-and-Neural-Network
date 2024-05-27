@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classifier</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Classifier: A Product By A<sup>2</sup></h1>
+        <p>Get your image know if there is plane, car, bird, cat, deer, dog, frog, horse, ship, truck.</p>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <button type="submit">SUBMIT</button>
+        </form>
+        {% if result %}
+            <h2>Prediction: {{ result }}</h2>
+            <img src="{{ image_url }}" alt="Uploaded Image" style="max-width: 100%; height: auto; margin-top: 20px;">
+        {% endif %}
+    </div>
+</body>
+</html>
