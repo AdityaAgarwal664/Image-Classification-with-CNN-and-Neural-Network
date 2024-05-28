@@ -21,7 +21,7 @@ This project is an image classification application built using Flask and PyTorc
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/image-classifier.git
+    git clone https://github.com/AdityaAgarwal664/Image-Classification-with-CNN-and-Neural-Network.git
     cd image-classifier
     ```
 
