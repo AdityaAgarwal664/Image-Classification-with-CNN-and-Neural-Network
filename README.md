@@ -9,6 +9,8 @@ This project is an image classification application built using Flask and PyTorc
 - The model is trained using a Convolutional Neural Network (CNN) with three convolutional layers and two fully connected layers.
 - The application provides a user-friendly web interface for uploading images and displaying results.
 
+##Demo
+Watch The demo video of project [here](https://youtu.be/KWtoJcNkLYY)
 ## Installation
 
 ### Prerequisites
